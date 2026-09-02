@@ -6,24 +6,24 @@ import FaqAccordion from "@/components/FaqAccordion";
 export const metadata: Metadata = {
   title: "Perguntas Frequentes sobre IPTV",
   description:
-    "Tire suas dúvidas sobre teste grátis, velocidade de internet, aparelhos compatíveis, preços, pagamento, fidelidade e suporte da Questbr IPTV.",
+    "Tire suas dúvidas sobre teste grátis, velocidade de internet, aparelhos compatíveis, preços, pagamento, fidelidade e suporte da RockBrasil IPTV.",
   alternates: { canonical: "/faq/" },
   openGraph: {
     url: "/faq/",
-    title: "Perguntas Frequentes sobre IPTV | Questbr IPTV",
+    title: "Perguntas Frequentes sobre IPTV | RockBrasil IPTV",
     description:
-      "Tire suas dúvidas sobre teste grátis, velocidade de internet, aparelhos compatíveis, preços, pagamento, fidelidade e suporte da Questbr IPTV.",
+      "Tire suas dúvidas sobre teste grátis, velocidade de internet, aparelhos compatíveis, preços, pagamento, fidelidade e suporte da RockBrasil IPTV.",
   },
   twitter: {
-    title: "Perguntas Frequentes sobre IPTV | Questbr IPTV",
+    title: "Perguntas Frequentes sobre IPTV | RockBrasil IPTV",
     description:
-      "Tire suas dúvidas sobre teste grátis, velocidade de internet, aparelhos compatíveis, preços, pagamento, fidelidade e suporte da Questbr IPTV.",
+      "Tire suas dúvidas sobre teste grátis, velocidade de internet, aparelhos compatíveis, preços, pagamento, fidelidade e suporte da RockBrasil IPTV.",
   },
 };
 
 const faqs = [
   {
-    pergunta: "Como funciona o teste IPTV grátis da Questbr?",
+    pergunta: "Como funciona o teste IPTV grátis da RockBrasil?",
     resposta:
       "Você clica em qualquer botão de WhatsApp do site e informa qual aparelho vai usar. Nossa equipe indica o player certo e envia o acesso de teste sem custo, sem pedir cartão de crédito ou cadastro extenso. O teste é liberado em até 10 minutos.",
   },
@@ -33,7 +33,7 @@ const faqs = [
       "Para IPTV HD, cerca de 15 Mbps de velocidade real já entregam uma experiência confortável. Para Full HD, recomendamos 25 Mbps, e para 4K, pelo menos 45 Mbps. Nossa equipe ajusta a qualidade do player conforme a sua conexão real — não a velocidade contratada.",
   },
   {
-    pergunta: "Em quais aparelhos a Questbr IPTV funciona?",
+    pergunta: "Em quais aparelhos a RockBrasil IPTV funciona?",
     resposta:
       "Funciona em Smart TV (Samsung, LG, TCL, Philco), TV Box, Android TV, Fire TV Stick, Chromecast com Google TV, Roku, celulares Android e iPhone, notebook e PC, além de tablets e projetores smart. Ficou em dúvida? Mande o nome do aparelho no WhatsApp antes de contratar.",
   },
@@ -119,7 +119,7 @@ export default function FaqPage() {
 
       <section className="section" aria-labelledby="faq-list-heading">
         <div className="container">
-          <h2 className="section-heading" id="faq-list-heading" style={{ textAlign: "center" }}>Dúvidas rápidas sobre a Questbr IPTV</h2>
+          <h2 className="section-heading" id="faq-list-heading" style={{ textAlign: "center" }}>Dúvidas rápidas sobre a RockBrasil IPTV</h2>
           <FaqAccordion items={faqs} />
           <p className="faq-footer">
             Não encontrou o que precisava? <a href={whatsappLink()} target="_blank" rel="noopener">Pergunte direto no WhatsApp</a> — respondemos todos os dias.

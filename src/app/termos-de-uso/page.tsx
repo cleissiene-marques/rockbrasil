@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Termos de Uso",
-  description: "Termos e condições de uso do serviço Questbr IPTV: contratação, pagamento, cancelamento, responsabilidades e limitações.",
+  description: "Termos e condições de uso do serviço RockBrasil IPTV: contratação, pagamento, cancelamento, responsabilidades e limitações.",
   alternates: { canonical: "/termos-de-uso/" },
   openGraph: {
     url: "/termos-de-uso/",
-    title: "Termos de Uso | Questbr IPTV",
-    description: "Termos e condições de uso do serviço Questbr IPTV: contratação, pagamento, cancelamento, responsabilidades e limitações.",
+    title: "Termos de Uso | RockBrasil IPTV",
+    description: "Termos e condições de uso do serviço RockBrasil IPTV: contratação, pagamento, cancelamento, responsabilidades e limitações.",
   },
   twitter: {
-    title: "Termos de Uso | Questbr IPTV",
-    description: "Termos e condições de uso do serviço Questbr IPTV: contratação, pagamento, cancelamento, responsabilidades e limitações.",
+    title: "Termos de Uso | RockBrasil IPTV",
+    description: "Termos e condições de uso do serviço RockBrasil IPTV: contratação, pagamento, cancelamento, responsabilidades e limitações.",
   },
 };
 
@@ -35,7 +35,7 @@ export default function TermosDeUsoPage() {
             <p>Ao solicitar o teste grátis, contratar um plano ou utilizar este site, você concorda com os termos descritos abaixo. Se não concordar com algum ponto, recomendamos não utilizar o serviço.</p>
 
             <h2>2. Descrição do serviço</h2>
-            <p>A Questbr IPTV oferece tecnologia e suporte para acesso a conteúdo de streaming via aplicativo (player), compatível com Smart TVs, TV Box, celulares e outros dispositivos. O serviço depende de conexão de internet própria do usuário.</p>
+            <p>A RockBrasil IPTV oferece tecnologia e suporte para acesso a conteúdo de streaming via aplicativo (player), compatível com Smart TVs, TV Box, celulares e outros dispositivos. O serviço depende de conexão de internet própria do usuário.</p>
 
             <h2>3. Contratação e pagamento</h2>
             <p>
@@ -61,7 +61,7 @@ export default function TermosDeUsoPage() {
             <p>A qualidade da transmissão pode ser afetada por fatores fora do nosso controle, como a conexão de internet do usuário, o desempenho do aparelho utilizado ou instabilidades pontuais de rede. Nos comprometemos a manter monitoramento contínuo e suporte ativo para minimizar impactos.</p>
 
             <h2>8. Propriedade intelectual</h2>
-            <p>A marca Questbr IPTV, o layout e os textos deste site são de uso exclusivo da empresa. É proibida a reprodução total ou parcial sem autorização prévia.</p>
+            <p>A marca RockBrasil IPTV, o layout e os textos deste site são de uso exclusivo da empresa. É proibida a reprodução total ou parcial sem autorização prévia.</p>
 
             <h2>9. Alterações nos termos</h2>
             <p>Estes termos podem ser atualizados periodicamente. Recomendamos revisar esta página com frequência. A data da última atualização está indicada no topo.</p>

@@ -7,18 +7,18 @@ import PlansGrid from "@/components/PlansGrid";
 export const metadata: Metadata = {
   title: "Planos IPTV a partir de R$ 25/mês",
   description:
-    "Conheça os planos IPTV da Questbr: Mensal, Trimestral, Semestral e Anual, todos com acesso completo, sem fidelidade. Pagamento via Pix, cartão ou boleto.",
+    "Conheça os planos IPTV da RockBrasil: Mensal, Trimestral, Semestral e Anual, todos com acesso completo, sem fidelidade. Pagamento via Pix, cartão ou boleto.",
   alternates: { canonical: "/planos/" },
   openGraph: {
     url: "/planos/",
-    title: "Planos IPTV a partir de R$ 25/mês | Questbr IPTV",
+    title: "Planos IPTV a partir de R$ 25/mês | RockBrasil IPTV",
     description:
-      "Conheça os planos IPTV da Questbr: Mensal, Trimestral, Semestral e Anual, todos com acesso completo, sem fidelidade. Pagamento via Pix, cartão ou boleto.",
+      "Conheça os planos IPTV da RockBrasil: Mensal, Trimestral, Semestral e Anual, todos com acesso completo, sem fidelidade. Pagamento via Pix, cartão ou boleto.",
   },
   twitter: {
-    title: "Planos IPTV a partir de R$ 25/mês | Questbr IPTV",
+    title: "Planos IPTV a partir de R$ 25/mês | RockBrasil IPTV",
     description:
-      "Conheça os planos IPTV da Questbr: Mensal, Trimestral, Semestral e Anual, todos com acesso completo, sem fidelidade. Pagamento via Pix, cartão ou boleto.",
+      "Conheça os planos IPTV da RockBrasil: Mensal, Trimestral, Semestral e Anual, todos com acesso completo, sem fidelidade. Pagamento via Pix, cartão ou boleto.",
   },
 };
 

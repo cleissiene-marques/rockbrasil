@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/iptv/" },
   openGraph: {
     url: "/iptv/",
-    title: "O que é IPTV? Como funciona a tecnologia | Questbr IPTV",
+    title: "O que é IPTV? Como funciona a tecnologia | RockBrasil IPTV",
     description:
       "Entenda o que é IPTV, como funciona a transmissão via internet, a diferença para TV a cabo e streaming tradicional, e a velocidade de internet necessária para assistir sem travar.",
   },
   twitter: {
-    title: "O que é IPTV? Como funciona a tecnologia | Questbr IPTV",
+    title: "O que é IPTV? Como funciona a tecnologia | RockBrasil IPTV",
     description:
       "Entenda o que é IPTV, como funciona a transmissão via internet, a diferença para TV a cabo e streaming tradicional, e a velocidade de internet necessária para assistir sem travar.",
   },

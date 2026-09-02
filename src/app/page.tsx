@@ -30,25 +30,25 @@ import FaqAccordion from "@/components/FaqAccordion";
 import BlogPreview from "@/components/BlogPreview";
 
 export const metadata: Metadata = {
-  title: "Questbr IPTV – Teste Grátis | IPTV Estável em HD, Full HD e 4K",
+  title: "RockBrasil IPTV – Teste Grátis | IPTV Estável em HD, Full HD e 4K",
   description:
-    "Questbr IPTV: transmissão estável em HD, Full HD e 4K com suporte humano no WhatsApp todos os dias. Peça seu teste grátis agora. Planos a partir de R$ 25/mês, sem fidelidade.",
+    "RockBrasil IPTV: transmissão estável em HD, Full HD e 4K com suporte humano no WhatsApp todos os dias. Peça seu teste grátis agora. Planos a partir de R$ 25/mês, sem fidelidade.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    title: "Questbr IPTV – Teste Grátis | IPTV Estável em HD, Full HD e 4K",
+    title: "RockBrasil IPTV – Teste Grátis | IPTV Estável em HD, Full HD e 4K",
     description:
-      "Questbr IPTV: transmissão estável em HD, Full HD e 4K com suporte humano no WhatsApp. Peça seu teste grátis agora. Planos a partir de R$ 25/mês, sem fidelidade.",
+      "RockBrasil IPTV: transmissão estável em HD, Full HD e 4K com suporte humano no WhatsApp. Peça seu teste grátis agora. Planos a partir de R$ 25/mês, sem fidelidade.",
   },
   twitter: {
-    title: "Questbr IPTV – Teste Grátis | IPTV Estável em HD, Full HD e 4K",
-    description: "Questbr IPTV: transmissão estável em HD, Full HD e 4K com suporte humano no WhatsApp.",
+    title: "RockBrasil IPTV – Teste Grátis | IPTV Estável em HD, Full HD e 4K",
+    description: "RockBrasil IPTV: transmissão estável em HD, Full HD e 4K com suporte humano no WhatsApp.",
   },
 };
 
 const homeFaqs = [
   {
-    pergunta: "Como funciona o teste IPTV grátis da Questbr?",
+    pergunta: "Como funciona o teste IPTV grátis da RockBrasil?",
     resposta:
       "Você clica em qualquer botão do site e envia uma mensagem no WhatsApp. Informamos qual aparelho vai usar, nossa equipe indica o player certo e envia o acesso de teste sem custo. Não pedimos cartão de crédito nem cadastro extenso.",
   },
@@ -58,7 +58,7 @@ const homeFaqs = [
       "Para IPTV HD, cerca de 15 Mbps de velocidade real já entregam uma experiência confortável. Para Full HD, recomendamos 25 Mbps, e para 4K, pelo menos 45 Mbps. Nossa equipe ajusta a qualidade conforme a sua conexão.",
   },
   {
-    pergunta: "Em quais aparelhos a Questbr IPTV funciona?",
+    pergunta: "Em quais aparelhos a RockBrasil IPTV funciona?",
     resposta:
       "Funciona em Smart TV (Samsung, LG, TCL), TV Box, Android TV, Fire TV Stick, Chromecast com Google TV, Roku, celulares Android e iPhone, notebook e PC. Ficou em dúvida? Mande o nome do aparelho no WhatsApp antes de contratar.",
   },
@@ -81,7 +81,7 @@ const homeFaqs = [
 const reviews = [
   {
     quote:
-      "Já tinha passado por dois serviços antes e sempre travava justamente no segundo tempo do jogo. A Questbr é diferente — nem nos jogos de domingo à noite trava. Renovei pelo segundo semestre sem pensar duas vezes.",
+      "Já tinha passado por dois serviços antes e sempre travava justamente no segundo tempo do jogo. A RockBrasil é diferente — nem nos jogos de domingo à noite trava. Renovei pelo segundo semestre sem pensar duas vezes.",
     initials: "BT",
     name: "Bruno Tavares",
     location: "Campo Grande, MS · Assinante há 8 meses",
@@ -105,7 +105,7 @@ const reviews = [
   },
   {
     quote:
-      "Somos quatro em casa e cada um quer uma coisa. Meu marido nos esportes, eu nas séries e as crianças nos desenhos. A Questbr tem tudo isso organizado direitinho. Sem briga pelo controle.",
+      "Somos quatro em casa e cada um quer uma coisa. Meu marido nos esportes, eu nas séries e as crianças nos desenhos. A RockBrasil tem tudo isso organizado direitinho. Sem briga pelo controle.",
     initials: "RS",
     name: "Renata Souza Lima",
     location: "Joinville, SC · Assinante há 7 meses",
@@ -129,7 +129,7 @@ const reviews = [
   },
   {
     quote:
-      "Assisto muito depois da meia-noite, depois que os pequenos dormem, e é justamente aí que outros serviços costumavam cair. Com a Questbr nunca precisei ficar reiniciando o app no meio de um filme.",
+      "Assisto muito depois da meia-noite, depois que os pequenos dormem, e é justamente aí que outros serviços costumavam cair. Com a RockBrasil nunca precisei ficar reiniciando o app no meio de um filme.",
     initials: "GP",
     name: "Gustavo Pires",
     location: "Londrina, PR · Assinante há 8 meses",
@@ -165,9 +165,9 @@ export default function HomePage() {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: "Questbr IPTV",
+    name: "RockBrasil IPTV",
     description: "Serviço de IPTV com transmissão estável em HD, Full HD e 4K, suporte humano no WhatsApp e planos sem fidelidade.",
-    brand: { "@id": "https://questbr.com.br/#organization" },
+    brand: { "@id": "https://rockbrasil40anos.com.br/#organization" },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
@@ -213,7 +213,7 @@ export default function HomePage() {
               </h1>
 
               <p className="hero-desc">
-                A Questbr IPTV reúne canais ao vivo, filmes, séries, esportes e conteúdo infantil com transmissão firme nos horários de pico e suporte humano no WhatsApp todos os dias. Peça o teste, instale em minutos e só decida depois de ver funcionando na sua casa.
+                A RockBrasil IPTV reúne canais ao vivo, filmes, séries, esportes e conteúdo infantil com transmissão firme nos horários de pico e suporte humano no WhatsApp todos os dias. Peça o teste, instale em minutos e só decida depois de ver funcionando na sua casa.
               </p>
 
               <div className="hero-actions">
@@ -305,7 +305,7 @@ export default function HomePage() {
       </section>
 
       {/* ===== STATS STRIP ===== */}
-      <section className="stats-strip" aria-label="Números da Questbr IPTV">
+      <section className="stats-strip" aria-label="Números da RockBrasil IPTV">
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item animate-on-scroll">
@@ -387,7 +387,7 @@ export default function HomePage() {
         <div className="container">
           <div className="label">Benefícios</div>
           <h2 className="section-heading" id="benefits-heading" style={{ marginTop: "16px" }}>
-            Por que escolher a Questbr IPTV
+            Por que escolher a RockBrasil IPTV
           </h2>
           <p className="section-subtext">
             Reunimos em um único serviço os pontos que mais pesam na experiência de quem assiste todos os dias: estabilidade, qualidade de imagem, suporte real e preço justo.
@@ -511,12 +511,12 @@ export default function HomePage() {
             <div>
               <div className="label">Diferenciais</div>
               <h2 className="section-heading" id="diff-heading" style={{ marginTop: "16px" }}>
-                Por que a Questbr é diferente de qualquer outro IPTV
+                Por que a RockBrasil é diferente de qualquer outro IPTV
               </h2>
             </div>
             <div>
               <p className="section-subtext" style={{ marginTop: 0 }}>
-                Qualquer serviço promete estabilidade. A diferença aparece na rotina: no jogo de domingo às 22h, na madrugada de sábado, quando o sistema trava e você precisa de alguém. É aí que a Questbr se separa do resto.
+                Qualquer serviço promete estabilidade. A diferença aparece na rotina: no jogo de domingo às 22h, na madrugada de sábado, quando o sistema trava e você precisa de alguém. É aí que a RockBrasil se separa do resto.
               </p>
             </div>
           </div>
@@ -718,7 +718,7 @@ export default function HomePage() {
         <div className="container">
           <div className="label">Avaliações</div>
           <h2 className="section-heading" id="reviews-heading" style={{ marginTop: "16px" }}>
-            O que dizem os assinantes da Questbr IPTV
+            O que dizem os assinantes da RockBrasil IPTV
           </h2>
 
           <div className="reviews-header">
@@ -763,7 +763,7 @@ export default function HomePage() {
           <div style={{ textAlign: "center" }}>
             <div className="label">FAQ</div>
             <h2 className="section-heading" id="faq-heading" style={{ marginTop: "16px" }}>
-              Dúvidas sobre a Questbr IPTV
+              Dúvidas sobre a RockBrasil IPTV
             </h2>
             <p className="section-subtext" style={{ marginInline: "auto" }}>
               Reunimos as perguntas que mais chegam no WhatsApp. A lista completa está na página de{" "}

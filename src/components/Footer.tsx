@@ -8,12 +8,12 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link href="/" className="logo" aria-label="Questbr IPTV — página inicial">
+            <Link href="/" className="logo" aria-label="RockBrasil IPTV — página inicial">
               <div className="logo-mark" aria-hidden="true">
                 <LogoMarkIcon width={20} height={20} />
               </div>
               <span className="logo-name">
-                Questbr <span>IPTV</span>
+                RockBrasil <span>IPTV</span>
               </span>
             </Link>
             <p>Tecnologia de streaming com foco em estabilidade, imagem em alta definição e suporte real. Teste grátis sem compromisso.</p>
@@ -64,7 +64,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>
-            © 2026 Questbr IPTV · questbr.com.br · Todos os direitos reservados.
+            © 2026 RockBrasil IPTV · rockbrasil40anos.com.br · Todos os direitos reservados.
             <br />
             <small style={{ color: "var(--t3)" }}>Serviço de tecnologia e suporte para aplicativos de streaming.</small>
           </p>

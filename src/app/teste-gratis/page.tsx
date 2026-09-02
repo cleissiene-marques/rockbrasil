@@ -5,16 +5,16 @@ import { WhatsAppIcon, CheckIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
   title: "Teste IPTV Grátis — Peça agora pelo WhatsApp",
-  description: "Peça seu teste IPTV grátis da Questbr em minutos. Sem cartão de crédito, sem cadastro extenso. Veja a qualidade antes de contratar.",
+  description: "Peça seu teste IPTV grátis da RockBrasil em minutos. Sem cartão de crédito, sem cadastro extenso. Veja a qualidade antes de contratar.",
   alternates: { canonical: "/teste-gratis/" },
   openGraph: {
     url: "/teste-gratis/",
-    title: "Teste IPTV Grátis — Peça agora pelo WhatsApp | Questbr IPTV",
-    description: "Peça seu teste IPTV grátis da Questbr em minutos. Sem cartão de crédito, sem cadastro extenso. Veja a qualidade antes de contratar.",
+    title: "Teste IPTV Grátis — Peça agora pelo WhatsApp | RockBrasil IPTV",
+    description: "Peça seu teste IPTV grátis da RockBrasil em minutos. Sem cartão de crédito, sem cadastro extenso. Veja a qualidade antes de contratar.",
   },
   twitter: {
-    title: "Teste IPTV Grátis — Peça agora pelo WhatsApp | Questbr IPTV",
-    description: "Peça seu teste IPTV grátis da Questbr em minutos. Sem cartão de crédito, sem cadastro extenso. Veja a qualidade antes de contratar.",
+    title: "Teste IPTV Grátis — Peça agora pelo WhatsApp | RockBrasil IPTV",
+    description: "Peça seu teste IPTV grátis da RockBrasil em minutos. Sem cartão de crédito, sem cadastro extenso. Veja a qualidade antes de contratar.",
   },
 };
 

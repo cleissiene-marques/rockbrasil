@@ -1,13 +1,13 @@
-export const SITE_URL = "https://questbr.com.br";
-export const SITE_NAME = "Questbr IPTV";
+export const SITE_URL = "https://rockbrasil40anos.com.br";
+export const SITE_NAME = "RockBrasil IPTV";
 export const WHATSAPP_NUMBER = "5589981175065";
-export const CONTACT_EMAIL = "contato@questbr.com.br";
+export const CONTACT_EMAIL = "contato@rockbrasil40anos.com.br";
 export const GA_MEASUREMENT_ID = "G-G4D63CWSC7";
 
-export const TESTE_GRATIS_MSG = "Olá! Quero solicitar o teste grátis da Questbr IPTV.";
+export const TESTE_GRATIS_MSG = "Olá! Quero solicitar o teste grátis da RockBrasil IPTV.";
 
 export function planMsg(plano: string): string {
-  return `Olá! Quero contratar o plano ${plano} da Questbr IPTV.`;
+  return `Olá! Quero contratar o plano ${plano} da RockBrasil IPTV.`;
 }
 
 export function whatsappLink(mensagem?: string): string {

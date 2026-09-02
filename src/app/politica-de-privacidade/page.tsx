@@ -3,16 +3,16 @@ import { whatsappLink, CONTACT_EMAIL } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Política de Privacidade",
-  description: "Saiba como a Questbr IPTV coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
+  description: "Saiba como a RockBrasil IPTV coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
   alternates: { canonical: "/politica-de-privacidade/" },
   openGraph: {
     url: "/politica-de-privacidade/",
-    title: "Política de Privacidade | Questbr IPTV",
-    description: "Saiba como a Questbr IPTV coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
+    title: "Política de Privacidade | RockBrasil IPTV",
+    description: "Saiba como a RockBrasil IPTV coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
   },
   twitter: {
-    title: "Política de Privacidade | Questbr IPTV",
-    description: "Saiba como a Questbr IPTV coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
+    title: "Política de Privacidade | RockBrasil IPTV",
+    description: "Saiba como a RockBrasil IPTV coleta, usa e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
   },
 };
 
@@ -32,7 +32,7 @@ export default function PoliticaDePrivacidadePage() {
             <p className="legal-updated">Última atualização: 31 de agosto de 2026</p>
 
             <h2>1. Quem somos</h2>
-            <p>Esta política explica como a Questbr IPTV (questbr.com.br) coleta, usa e protege os dados pessoais de quem solicita informações, teste grátis ou contrata nossos planos, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD).</p>
+            <p>Esta política explica como a RockBrasil IPTV (rockbrasil40anos.com.br) coleta, usa e protege os dados pessoais de quem solicita informações, teste grátis ou contrata nossos planos, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD).</p>
 
             <h2>2. Quais dados coletamos</h2>
             <ul>

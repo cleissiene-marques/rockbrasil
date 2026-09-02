@@ -45,12 +45,12 @@ export default function Header() {
 
       <header className="site-header">
         <div className="container header-inner">
-          <Link href="/" className="logo" aria-label="Questbr IPTV — página inicial">
+          <Link href="/" className="logo" aria-label="RockBrasil IPTV — página inicial">
             <div className="logo-mark" aria-hidden="true">
               <LogoMarkIcon width={20} height={20} />
             </div>
             <span className="logo-name">
-              Questbr <span>IPTV</span>
+              RockBrasil <span>IPTV</span>
             </span>
           </Link>
 
@@ -89,7 +89,7 @@ export default function Header() {
               <LogoMarkIcon width={20} height={20} />
             </div>
             <span className="logo-name">
-              Questbr <span>IPTV</span>
+              RockBrasil <span>IPTV</span>
             </span>
           </Link>
           <button aria-label="Fechar menu" onClick={() => setMenuAberto(false)}>

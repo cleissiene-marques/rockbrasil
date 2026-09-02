@@ -4,16 +4,16 @@ import { whatsappLink, TESTE_GRATIS_MSG } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Quem Somos",
-  description: "Conheça a Questbr IPTV: um serviço focado em estabilidade, qualidade de imagem e suporte humano de verdade para quem quer assistir sem travar.",
+  description: "Conheça a RockBrasil IPTV: um serviço focado em estabilidade, qualidade de imagem e suporte humano de verdade para quem quer assistir sem travar.",
   alternates: { canonical: "/quem-somos/" },
   openGraph: {
     url: "/quem-somos/",
-    title: "Quem Somos | Questbr IPTV",
-    description: "Conheça a Questbr IPTV: um serviço focado em estabilidade, qualidade de imagem e suporte humano de verdade para quem quer assistir sem travar.",
+    title: "Quem Somos | RockBrasil IPTV",
+    description: "Conheça a RockBrasil IPTV: um serviço focado em estabilidade, qualidade de imagem e suporte humano de verdade para quem quer assistir sem travar.",
   },
   twitter: {
-    title: "Quem Somos | Questbr IPTV",
-    description: "Conheça a Questbr IPTV: um serviço focado em estabilidade, qualidade de imagem e suporte humano de verdade para quem quer assistir sem travar.",
+    title: "Quem Somos | RockBrasil IPTV",
+    description: "Conheça a RockBrasil IPTV: um serviço focado em estabilidade, qualidade de imagem e suporte humano de verdade para quem quer assistir sem travar.",
   },
 };
 
@@ -31,9 +31,9 @@ export default function QuemSomosPage() {
       <section className="section" aria-labelledby="story-heading">
         <div className="container">
           <div className="label">Nossa forma de trabalhar</div>
-          <h2 className="section-heading" id="story-heading" style={{ marginTop: "16px" }}>Por que a Questbr existe</h2>
+          <h2 className="section-heading" id="story-heading" style={{ marginTop: "16px" }}>Por que a RockBrasil existe</h2>
           <div className="legal-content" style={{ marginTop: "32px" }}>
-            <p>A Questbr IPTV nasceu de um problema simples de descrever e chato de viver: serviço de streaming que trava justamente na hora que mais importa — no jogo decisivo, na estreia da série, no fim de semana em família.</p>
+            <p>A RockBrasil IPTV nasceu de um problema simples de descrever e chato de viver: serviço de streaming que trava justamente na hora que mais importa — no jogo decisivo, na estreia da série, no fim de semana em família.</p>
             <p>Por isso, a operação é construída em torno de três prioridades: infraestrutura monitorada de perto (especialmente em horários de pico), atendimento feito por pessoas que conhecem o serviço de verdade, e transparência total sobre preço e condições — sem letra miúda.</p>
             <p>Preferimos crescer devagar e manter a qualidade do que prometer mais do que conseguimos entregar. É por isso que o teste grátis existe: para você ver a estabilidade funcionando antes de decidir.</p>
           </div>
