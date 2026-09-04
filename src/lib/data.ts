@@ -2,7 +2,7 @@ export const SITE_URL = "https://rockbrasil40anos.com.br";
 export const SITE_NAME = "RockBrasil IPTV";
 export const WHATSAPP_NUMBER = "5589981175065";
 export const CONTACT_EMAIL = "contato@rockbrasil40anos.com.br";
-export const GA_MEASUREMENT_ID = "G-G4D63CWSC7";
+export const GA_MEASUREMENT_ID = "G-JJK0NWX4DS";
 
 export const TESTE_GRATIS_MSG = "Olá! Quero solicitar o teste grátis da RockBrasil IPTV.";
 
