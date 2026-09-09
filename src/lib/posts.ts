@@ -17,6 +17,65 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "lista-iptv-o-que-e-e-como-escolher",
+    title: "Lista IPTV: o que é e como escolher uma confiável",
+    description:
+      "Entenda o que é uma lista IPTV, a diferença entre listas gratuitas e listas pagas mantidas por uma equipe, e os pontos que evitam travamento e canais fora do ar.",
+    badge: "Guia de decisão",
+    date: "2026-09-09",
+    readTime: "6 min",
+    excerpt:
+      "Toda lista IPTV promete o mesmo catálogo de canais. A diferença real aparece em quem mantém a infraestrutura por trás dela — e é isso que decide se vai travar ou não.",
+    sections: [
+      {
+        paragraphs: [
+          "\"Lista IPTV\" é o termo usado para o catálogo de canais, filmes e séries que um aplicativo de streaming carrega para exibir. É comum ver o termo associado só ao número de canais, mas o que realmente define a experiência é a estrutura por trás dessa lista — não a lista em si.",
+        ],
+      },
+      {
+        heading: "O que compõe uma lista IPTV",
+        paragraphs: [
+          "Na prática, uma lista IPTV reúne três tipos de conteúdo: canais ao vivo (abertos e fechados), filmes sob demanda e séries organizadas por temporada. Essa lista fica hospedada em servidores que entregam o conteúdo para o aplicativo em tempo real, conforme o usuário assiste.",
+          "Duas listas com nomes de canais parecidos podem entregar experiências bem diferentes, porque o que sustenta a transmissão é a infraestrutura — servidores monitorados, banda dedicada, atualização constante — e não apenas a quantidade de itens listados.",
+        ],
+      },
+      {
+        heading: "Lista gratuita x lista paga e mantida",
+        paragraphs: [
+          "Listas IPTV gratuitas costumam ser mantidas sem uma equipe dedicada, o que gera três problemas recorrentes:",
+        ],
+        list: [
+          "Servidores sobrecarregados nos horários de maior audiência, já que não há investimento contínuo em capacidade.",
+          "Canais que somem sem aviso, porque ninguém monitora e substitui fontes que caem.",
+          "Nenhum suporte disponível quando o problema aparece — o usuário fica por conta própria.",
+        ],
+      },
+      {
+        heading: "Riscos de listas piratas ou não verificadas",
+        paragraphs: [
+          "Além da instabilidade, listas de origem não verificada costumam vir carregadas de anúncios invasivos e não oferecem qualquer garantia sobre a segurança do aplicativo usado para acessá-las. Como não há uma empresa por trás para reclamar ou pedir suporte, o usuário assume sozinho qualquer risco.",
+        ],
+      },
+      {
+        heading: "Como identificar uma lista IPTV confiável",
+        paragraphs: [
+          "Alguns sinais ajudam a diferenciar um serviço sério de uma lista descartável:",
+        ],
+        list: [
+          "Oferece teste grátis antes de qualquer cobrança, sem pedir cartão de crédito.",
+          "Tem suporte humano acessível para resolver travamentos e dúvidas de instalação.",
+          "Mantém o catálogo revisado com frequência, sem canais fora do ar por dias seguidos.",
+          "É transparente sobre preço e condições, sem fidelidade obrigatória escondida em letra miúda.",
+        ],
+      },
+      {
+        paragraphs: [
+          "No fim, a pergunta certa não é \"quantos canais tem essa lista IPTV\", e sim \"quem mantém essa lista funcionando todos os dias\". É essa resposta que decide se a experiência vai ser estável ou se vai travar justamente na hora que você mais quer assistir.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "como-configurar-iptv-na-smart-tv",
     title: "Como configurar IPTV na Smart TV sem complicação",
     description:

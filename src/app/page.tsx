@@ -76,6 +76,20 @@ const homeFaqs = [
     pergunta: "Como é feito o pagamento?",
     resposta: "Aceitamos Pix, cartão de crédito e boleto bancário. A ativação ocorre em poucos minutos após a confirmação do pagamento.",
   },
+  {
+    pergunta: "O que é a lista IPTV da RockBrasil e o que ela inclui?",
+    resposta: (
+      <>
+        Nossa lista IPTV reúne canais ao vivo, filmes e séries organizados por categoria, com manutenção e atualização constantes para evitar canais fora do ar. Veja em detalhe{" "}
+        <Link href="/lista-iptv/" style={{ color: "var(--accent)" }}>
+          o que é uma lista IPTV e como escolher uma confiável
+        </Link>
+        .
+      </>
+    ),
+    respostaTexto:
+      "Nossa lista IPTV reúne canais ao vivo, filmes e séries organizados por categoria, com manutenção e atualização constantes para evitar canais fora do ar.",
+  },
 ];
 
 const reviews = [
@@ -188,7 +202,7 @@ export default function HomePage() {
     mainEntity: homeFaqs.map((f) => ({
       "@type": "Question",
       name: f.pergunta,
-      acceptedAnswer: { "@type": "Answer", text: f.resposta },
+      acceptedAnswer: { "@type": "Answer", text: "respostaTexto" in f ? f.respostaTexto : (f.resposta as string) },
     })),
   };
 
@@ -564,7 +578,9 @@ export default function HomePage() {
             Tudo separado por categoria, do jeito que se acha rápido
           </h2>
           <p className="section-subtext">
-            A navegação foi pensada para você chegar ao que quer assistir em poucos cliques, sem se perder em listas infinitas.
+            A navegação foi pensada para você chegar ao que quer assistir em poucos cliques, sem se perder em listas infinitas. Quer entender como montamos nossa{" "}
+            <Link href="/lista-iptv/" style={{ color: "var(--accent)" }}>lista IPTV completa</Link>{" "}
+            e o que muda em relação a listas gratuitas? Veja como funciona.
           </p>
 
           <div className="categories-grid">

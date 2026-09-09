@@ -6,6 +6,7 @@ export const dynamic = "force-static";
 const routes = [
   "",
   "iptv/",
+  "lista-iptv/",
   "planos/",
   "teste-gratis/",
   "blog/",

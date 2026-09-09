@@ -36,6 +36,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/">Início</Link></li>
               <li><Link href="/iptv/">O que é IPTV</Link></li>
+              <li><Link href="/lista-iptv/">Lista IPTV</Link></li>
               <li><Link href="/planos/">Planos IPTV</Link></li>
               <li><Link href="/teste-gratis/">Teste IPTV Grátis</Link></li>
               <li><Link href="/blog/">Blog</Link></li>

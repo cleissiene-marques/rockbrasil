@@ -3,19 +3,40 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { WhatsAppIcon, LogoMarkIcon, CloseIcon } from "@/components/Icons";
+import { WhatsAppIcon, LogoMarkIcon, CloseIcon, ChevronDownIcon } from "@/components/Icons";
 import { whatsappLink, TESTE_GRATIS_MSG } from "@/lib/data";
 
-const navLinks = [
+type NavLink = { href: string; label: string };
+type NavGroup = { label: string; children: NavLink[] };
+type NavItem = NavLink | NavGroup;
+
+function isGroup(item: NavItem): item is NavGroup {
+  return "children" in item;
+}
+
+const navLinks: NavItem[] = [
   { href: "/", label: "Início" },
-  { href: "/iptv/", label: "O que é IPTV" },
+  {
+    label: "IPTV",
+    children: [
+      { href: "/iptv/", label: "O que é IPTV" },
+      { href: "/lista-iptv/", label: "Lista IPTV" },
+    ],
+  },
   { href: "/planos/", label: "Planos" },
   { href: "/teste-gratis/", label: "Teste Grátis" },
   { href: "/blog/", label: "Blog" },
-  { href: "/faq/", label: "FAQ" },
-  { href: "/quem-somos/", label: "Quem Somos" },
-  { href: "/contato/", label: "Contato" },
+  {
+    label: "Empresa",
+    children: [
+      { href: "/faq/", label: "FAQ" },
+      { href: "/quem-somos/", label: "Quem Somos" },
+      { href: "/contato/", label: "Contato" },
+    ],
+  },
 ];
+
+const mobileLinks: NavLink[] = navLinks.flatMap((item) => (isGroup(item) ? item.children : [item]));
 
 export default function Header() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -55,11 +76,30 @@ export default function Header() {
           </Link>
 
           <nav className="nav-links" aria-label="Navegação principal">
-            {navLinks.map((link) => (
-              <Link key={link.href} href={link.href} className={pathname === link.href ? "active" : ""}>
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((item) =>
+              isGroup(item) ? (
+                <div className="nav-item" key={item.label}>
+                  <button
+                    type="button"
+                    className={`nav-trigger${item.children.some((c) => c.href === pathname) ? " active" : ""}`}
+                  >
+                    {item.label}
+                    <ChevronDownIcon width={12} height={12} />
+                  </button>
+                  <div className="nav-dropdown">
+                    {item.children.map((link) => (
+                      <Link key={link.href} href={link.href} className={pathname === link.href ? "active" : ""}>
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link key={item.href} href={item.href} className={pathname === item.href ? "active" : ""}>
+                  {item.label}
+                </Link>
+              )
+            )}
           </nav>
 
           <div className="header-cta">
@@ -96,7 +136,7 @@ export default function Header() {
             <CloseIcon />
           </button>
         </div>
-        {navLinks.map((link) => (
+        {mobileLinks.map((link) => (
           <Link key={link.href} href={link.href} onClick={() => setMenuAberto(false)}>
             {link.label}
           </Link>

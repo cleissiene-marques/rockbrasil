@@ -166,13 +166,45 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .nav-links {
   display: flex; align-items: center; gap: 2px;
 }
-.nav-links a {
+.nav-links > a {
   font-size: .875rem; font-weight: 600; color: var(--t2);
   padding: 9px 16px; border-radius: 100px;
   transition: color var(--t), background var(--t);
 }
-.nav-links a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
-.nav-links a.active { color: var(--accent); background: var(--glow-sm); }
+.nav-links > a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
+.nav-links > a.active { color: var(--accent); background: var(--glow-sm); }
+
+.nav-item { position: relative; }
+.nav-trigger {
+  display: flex; align-items: center; gap: 4px;
+  font-family: inherit; font-size: .875rem; font-weight: 600; color: var(--t2);
+  padding: 9px 16px; border-radius: 100px; border: none; background: transparent; cursor: pointer;
+  transition: color var(--t), background var(--t);
+}
+.nav-trigger svg { transition: transform var(--t); }
+.nav-item:hover .nav-trigger, .nav-item:focus-within .nav-trigger { color: var(--t1); background: rgba(255,255,255,.05); }
+.nav-item:hover .nav-trigger svg, .nav-item:focus-within .nav-trigger svg { transform: rotate(180deg); }
+.nav-trigger.active { color: var(--accent); background: var(--glow-sm); }
+
+.nav-dropdown {
+  position: absolute; top: 100%; left: 0; margin-top: 6px;
+  display: flex; flex-direction: column; gap: 2px;
+  min-width: 190px; padding: 6px;
+  background: var(--bg-2); border: 1px solid var(--brd); border-radius: 14px;
+  box-shadow: 0 16px 32px rgba(0,0,0,.4);
+  opacity: 0; visibility: hidden; transform: translateY(4px);
+  transition: opacity var(--t), transform var(--t), visibility var(--t);
+}
+.nav-item:hover .nav-dropdown, .nav-item:focus-within .nav-dropdown {
+  opacity: 1; visibility: visible; transform: translateY(0);
+}
+.nav-dropdown a {
+  font-size: .875rem; font-weight: 600; color: var(--t2);
+  padding: 9px 12px; border-radius: 8px;
+  transition: color var(--t), background var(--t);
+}
+.nav-dropdown a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
+.nav-dropdown a.active { color: var(--accent); background: var(--glow-sm); }
 
 .header-cta { display: flex; align-items: center; gap: 10px; }
 
